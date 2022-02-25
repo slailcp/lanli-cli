@@ -1,0 +1,42 @@
+{
+  "name": "lanli-cli",
+  "version": "0.0.1",
+  "description": "lanli-cli简易版脚手架",
+  "main": "index.js",
+  "scripts": {
+    "npm run test": "test"
+  },
+  "bin": {
+    "lanli-cli": "lib/index.js"
+  },
+  "readmeFilename": "README.md",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slailcp/lanli-cli.git"
+  },
+  "keywords": [
+    "lanli",
+    "cli",
+    "脚手架"
+  ],
+  "author": "shenlanlan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slailcp/lanli-cli/issues"
+  },
+  "homepage": "https://github.com/slailcp/lanli-cli#readme",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "commander": "^9.0.0",
+    "inquirer": "^8.2.0"
+  },
+  "devDependencies": {
+    "axios": "^0.26.0",
+    "download-git-repo": "^3.0.2",
+    "fs-extra": "^10.0.1",
+    "ora": "^4.0.3"
+  }
+}
