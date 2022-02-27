@@ -1,6 +1,6 @@
 {
   "name": "lanli-cli",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "自制lanli-cli简易版脚手架，可自定义开发框架",
   "main": "index.js",
   "scripts": {
@@ -28,12 +28,12 @@
     "url": "https://github.com/slailcp/lanli-cli/issues"
   },
   "homepage": "https://github.com/slailcp/lanli-cli#readme",
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "download-git-repo": "^3.0.2",
     "fs-extra": "^10.0.1",
     "ora": "^4.0.3",
     "commander": "^9.0.0",
     "inquirer": "^8.2.0"
-  }
+  },
+  "devDependencies": {}
 }
