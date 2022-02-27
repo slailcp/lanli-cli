@@ -7,3 +7,6 @@ _test/
 .idea
 .vscode
 package-lock.json
+CHANGELOG.md
+.editorconfig
+.eslintrc.js
