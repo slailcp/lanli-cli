@@ -1,0 +1,8 @@
+.DS_STORE
+node_modules
+build/
+test/
+_test/
+*.log*
+.idea
+.vscode

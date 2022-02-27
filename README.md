@@ -15,3 +15,6 @@ lanli-cli create projectname -n=E:\MyProject\vite  // 从本机E:\MyProject\vite
 lanli-cli -V // 查看版本号
 lanli-cli -h // 查看命令说明
 ```
+
+# lanli-cli源码
+[lanli-cli](https://github.com/slailcp/lanli-cli)

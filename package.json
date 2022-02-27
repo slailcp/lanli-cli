@@ -1,7 +1,7 @@
 {
   "name": "lanli-cli",
-  "version": "0.0.1",
-  "description": "lanli-cli简易版脚手架",
+  "version": "1.0.0",
+  "description": "自制lanli-cli简易版脚手架，可自定义开发框架",
   "main": "index.js",
   "scripts": {
     "npm run test": "test"

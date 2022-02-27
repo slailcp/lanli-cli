@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>demo</title>
+  <link rel="stylesheet" href="../less/index.less">
+  <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/vue@2"></script> -->
+</head>
+
+<body>
+  <div id="page">
+    {{ message }}
+    hehaha
+    <a href="/Home.html">list</a>
+    <a href="/About/index.html">list</a>
+  </div>
+</body>
+<script src="../js/index.js"></script>
+<script> 
+var app = new Vue({
+  el: '#page',
+  data: {
+    message: 'Hello Vue123dd!13'
+  }
+})
+</script>
+</html>
