@@ -16,5 +16,19 @@ lanli-cli -V // 查看版本号
 lanli-cli -h // 查看命令说明
 ```
 
-# lanli-cli源码
+## lanli-cli源码
 [lanli-cli](https://github.com/slailcp/lanli-cli)
+
+## 版本更新记录
+1.0.0  添加lanli-gulp模板，将html中的es6转成es5，然后打包到dist文件夹
+
+
+
+
+
+
+
+
+
+
+
