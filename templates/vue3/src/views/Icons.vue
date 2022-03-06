@@ -92,3 +92,23 @@ import { Vue } from "vue-class-component";
 
 export default class Icons extends Vue {}
 </script>
+<style scoped>
+.icon-box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.icon-span {
+  width: 25%;
+  padding: 10px 0;
+  font-size: 12px;
+  text-align: center;
+  box-shadow: 0 0 1px #bdd0f5;
+  box-sizing: border-box;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+</style>
