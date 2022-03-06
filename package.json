@@ -1,13 +1,13 @@
 {
   "name": "lanli-cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "自制lanli-cli简易版脚手架，可自定义开发框架",
   "main": "index.js",
   "scripts": {
     "npm run test": "test"
   },
   "bin": {
-    "lanli-cli": "lib/index.js"
+    "lanli": "lib/index.js"
   },
   "readmeFilename": "README.md",
   "engines": {
