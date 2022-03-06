@@ -34,18 +34,20 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue';
+import { Options, Vue } from 'vue-class-component';
 
-export default defineComponent({
-  name: 'HelloWorld',
+@Options({
   props: {
-    msg: String,
-  },
-});
+    msg: String
+  }
+})
+export default class HelloWorld extends Vue {
+  msg!: string
+}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped lang="scss">
+<style scoped lang="less">
 h3 {
   margin: 40px 0 0;
 }
