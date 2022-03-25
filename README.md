@@ -20,7 +20,8 @@ lanli -h // 查看命令说明
 [lanli-cli](https://github.com/slailcp/lanli-cli)
 
 ## 版本更新记录
-0.0.2  添加lanli-gulp模板，将html中的es6转成es5，然后打包到dist文件夹
+0.0.2  添加gulp-html模板，将html中的es6转成es5，然后打包到dist文件夹
+0.0.3/0.0.4  添加gulp-react模板,将react插件打包成umd.js文件,可独立引用
 
 
 
