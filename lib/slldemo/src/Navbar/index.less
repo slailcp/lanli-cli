@@ -1,0 +1,24 @@
+.lan-navbar-wraper {
+  position: sticky;top:0;
+  height: 40px;
+  line-height: 40px;
+  display: flex;background:#fff;z-index: 9;box-shadow:0 0 10px #ccc;
+
+  .lan-navbar-item {
+    width: 100px;
+
+    &:first-child {
+      text-align: left;
+      display: flex;align-items: center;padding-left:10px;
+    }
+
+    &:last-child {
+      text-align: right;
+    }
+  }
+
+  .lan-navbar-center {
+    flex: 1;
+    text-align: center;
+  }
+}
